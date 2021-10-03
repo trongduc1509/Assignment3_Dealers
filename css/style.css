@@ -56,7 +56,7 @@ li:last-child.header-list-item {
 }
 
 .header_inner2 {
-    background-image: url(./img/Dealer_0001_stemp.jpg);
+    background-image: url(../img/Dealer_0001_stemp.jpg);
     flex-basis: 50%;
     padding: 1.5rem;
 }
@@ -129,7 +129,7 @@ main.margin-device .advertisement .confirm-deal {
 }
 
 .confirm-deal .deal-timeline {
-    background: url(./img/ticket.png) top center no-repeat;
+    background: url(../img/ticket.png) top center no-repeat;
     background-size: 100% 100%;
     padding: 1.5rem 0;
     margin-bottom: 1.5rem;
