@@ -1,0 +1,361 @@
+* {
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #4b4b4b;
+}
+
+.wrapper {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 2rem auto;
+    max-width: 1003px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.margin-device {
+    margin: 0 auto;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+header.margin-device {
+    margin-bottom: 2rem;
+}
+
+.header_inner1 {
+    flex-basis: 50%;
+}
+
+#logo {
+    font-family: "Yellowtail";
+    font-size: 5rem;
+}
+
+.header-list-item {
+    display: inline;
+}
+
+li.header-list-item {
+    font-weight: bold;
+}
+
+li:not(:last-child).header-list-item {
+    border-right: dashed #4b4b4b 1px;
+    padding: 0 0.5rem;
+}
+
+li:last-child.header-list-item {
+    padding-left: 0.5rem;
+}
+
+.header_inner2 {
+    background-image: url("/img/Dealer_0001_stemp.jpg");
+    flex-basis: 50%;
+    padding: 1.5rem;
+}
+
+.header_inner2 p {
+    font-size: 1rem;
+    font-weight: bold;
+    padding-bottom: 0.8rem;
+}
+
+.header_inner2 input {
+    height: 2rem;
+}
+
+.header_inner2 input[type="text"] {
+    width: 60%;
+    margin-right: 1.5rem;
+}
+
+.header_inner2 button {
+    height: 2rem;
+    width: 30%;
+    border-radius: 0.3rem;
+    border: #92a7b5 solid 1px;
+    background-image: linear-gradient(#bbc9d4,#b9c7d2,#8da4b6);
+}
+
+main {
+    max-width: 1003px;
+    padding: 1rem 2rem;
+    background-color: white;
+}
+
+main.margin-device {
+    margin-bottom: 2rem;
+}
+/*1400px, 963*/
+
+.review-deal {
+    padding-right: 2rem;
+}
+
+.review-deal h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 2rem;
+}
+
+.review-deal .deal-img {
+    width: 100%;
+    padding-top: 50%;
+    background-color: #ff6633;
+    border: white solid 0.2rem;
+    box-shadow: 0 0 0.1rem #cccccc;
+    margin-bottom: 2rem;
+}
+
+.advertisement {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+main.margin-device .advertisement .review-deal {
+    flex-basis: 70%;
+}
+
+main.margin-device .advertisement .confirm-deal {
+    flex-basis: 30%;
+}
+
+.confirm-deal .deal-timeline {
+    background: url(/img/ticket.png) top center no-repeat;
+    background-size: 100% 100%;
+    padding: 1.5rem 0;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.deal-timeline h3 {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.confirm-deal .deal-timeline .discount.dashed-bottom {
+    margin: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.confirm-deal .deal-timeline .discount.dashed-bottom h1 {
+    padding-top: 0.5rem;
+    font-size: 4rem;
+}
+
+.confirm-deal .deal-timeline h2.double-bottom {
+    margin-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.confirm-deal .deal-timeline .deal-advance.dashed-bottom {
+    margin: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.confirm-deal .deal-timeline .social-media i {
+    font-size: 2rem;
+}
+
+.confirm-deal button {
+    width: 100%;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    color: #666633;
+}
+
+.fonts-example {
+    padding: 2rem;
+}
+
+.fonts-example .single-font {
+    margin: 0 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.some-deals .single-deal {
+    padding: 1.5rem 1rem;
+}
+
+.some-deals .single-deal .line.dashed-bottom {
+    padding: 1.5rem auto;
+    display: block;
+}
+
+.some-deals .single-deal h2 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.some-deals .single-deal .countdown {
+    padding-top: 0.2rem;
+    font-size: 0.7rem;
+    color: black;
+    display: inline;
+    float: left;
+}
+
+.some-deals .single-deal button {
+    font-size: 0.7rem;
+    color: #666633;
+    width: 30%;
+    border-radius: 0.3rem;
+    height: 1.5rem;
+    display: inline;
+    float: right;
+}
+
+.some-deals .single-deal .dashed-bottom {
+    padding-top: 20%;
+}
+
+.some-deals .single-deal .singledeal-info {
+    background-color: white;
+    box-shadow: #e5e5e5 0 0 5px;
+    padding: 0.2rem;
+    margin: 0.6rem 0;
+}
+
+.some-deals .single-deal .singledeal-info .image {
+    background-color: #ff6633;
+    width: 100%;
+    padding-top: 50%;
+}
+
+.some-deals .single-deal .singledeal-info .deal-advance {
+    padding: 0.4rem 0 0 0;
+}
+
+.some-deals .single-deal .singledeal-info .deal-advance .detail {
+    display: block;
+    text-align: center;
+    margin: 0.2rem 0;
+    padding: 0.2rem 0.1rem;
+}
+
+.some-deals .single-deal .singledeal-info .deal-advance h4 {
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.news {
+    padding: 1rem 0;
+}
+
+.paddinglr-1rem {
+    padding: 0 1rem;
+}
+
+.news h2 {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.news p {
+    font-size: 0.8rem;
+    color: #999999;
+    margin: 1rem 0;
+    line-height: 1.5rem;
+}
+
+.news .twitter .mini-box {
+    padding: 0;
+    margin-bottom: 1.5rem;
+}
+
+.news h3 {
+    font-size: 0.6rem;
+    font-weight: bold;
+    color: #8c8c8c;
+    background-color: #e9e9e9;
+    padding: 0.3rem 0.6rem;
+    border-radius: 0.1rem;
+    display: inline;
+}
+
+.news .nav-other-pages p {
+    margin: 0.5rem 0;
+}
+
+.news .nav-other-pages ul {
+    margin-top: 1rem;
+}
+
+footer {
+    margin: 2rem auto;
+    text-align: center;
+}
+
+footer p {
+    font-size: 0.8rem;
+    color: #999999;
+    font-weight: normal;
+}
+
+footer .span {
+    padding: 1rem 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: #94af5b solid 1px;
+    border-radius: 0.5rem;
+    background-image: linear-gradient(#c8e183,#c5dc87,#a1cc58);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.lightgreen-color {
+    color: #669933;
+}
+
+.gray-color {
+    color: #999999;
+}
+
+.divide-2 {
+    flex-basis: 50%;
+}
+
+.divide-3 {
+    flex-basis: 33.33%;
+}
+
+.divide-5 {
+    flex-basis: 20%;
+}
+
+.flex-spacearound {
+    display: flex;
+    justify-content: space-around;
+}
+
+.dashed-bottom {
+    border-bottom: dashed #f2f2f2 0.15rem;
+}
+
+.dashed-left-fake {
+    border-left: dashed white 0.15rem;
+}
+
+.dashed-left {
+    border-left: dashed #f2f2f2 0.15rem;
+}
+
+.double-bottom {
+    border-bottom: double #f2f2f2;
+}
